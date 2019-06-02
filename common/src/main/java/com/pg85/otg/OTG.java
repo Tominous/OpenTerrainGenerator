@@ -242,7 +242,7 @@ public class OTG
 
     public static LocalBiome getBiomeAllWorlds(int id)
     {
-    	//OTG.log(LogMarker.INFO, "getBiomeAllWorlds id");
+    	OTG.log(LogMarker.INFO, "getBiomeAllWorlds id");
 
         ArrayList<LocalWorld> worlds = getAllWorlds();
         if(worlds != null)
@@ -261,7 +261,7 @@ public class OTG
 
     public static LocalBiome getBiomeAllWorlds(String name)
     {
-    	//OTG.log(LogMarker.INFO, "getBiomeAllWorlds name");
+    	OTG.log(LogMarker.INFO, "getBiomeAllWorlds name");
 
         ArrayList<LocalWorld> worlds = getAllWorlds();
         if(worlds != null)
